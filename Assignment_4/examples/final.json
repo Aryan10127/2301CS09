@@ -1,0 +1,13 @@
+{
+  "format": "course-utxo-v1",
+  "utxos": {
+    "9e19f5fa39817010cae6d02cf31472f23fce6b8ccad809fdfad5e95c00722c48:0": {
+      "value": 85,
+      "address": "mqCb2NqXE4HsToTqQZQZr37ZenHoMXdqYV"
+    },
+    "9e19f5fa39817010cae6d02cf31472f23fce6b8ccad809fdfad5e95c00722c48:1": {
+      "value": 23,
+      "address": "mkJKfZiJZfeaNL1ga8DVaZUNdgypqs3pU5"
+    }
+  }
+}

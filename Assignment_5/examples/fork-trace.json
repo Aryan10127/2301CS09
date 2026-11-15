@@ -1,0 +1,95 @@
+{
+  "genesis": "0911762e13d473fc97321b15e47044cebfde3bce6c86c22b9b113488d9ff9ee1",
+  "branch_A": {
+    "blocks": [
+      "07b012236a9816ffc1421209328bdf71a9f261b36f2064e84a61b286070bc1e6",
+      "014018aae1104d777bed19f36f2ab5a46923432a0ba52a38ddd2cf104dfff55e",
+      "08d1836768fb918d4ce5eddbf352433c6c2bc99baff9b055dee99da79634234d"
+    ],
+    "work": 64,
+    "height": 3
+  },
+  "branch_B": {
+    "blocks": [
+      "0291dd741c5c2d9ce8029f48aa249f43d40ff41ea80168eeb2f5369577fc5170"
+    ],
+    "work": 80,
+    "height": 1
+  },
+  "selected_tip": "0291dd741c5c2d9ce8029f48aa249f43d40ff41ea80168eeb2f5369577fc5170",
+  "active_path": [
+    "0911762e13d473fc97321b15e47044cebfde3bce6c86c22b9b113488d9ff9ee1",
+    "0291dd741c5c2d9ce8029f48aa249f43d40ff41ea80168eeb2f5369577fc5170"
+  ],
+  "reorganisations": [
+    {
+      "old_tip": "08d1836768fb918d4ce5eddbf352433c6c2bc99baff9b055dee99da79634234d",
+      "new_tip": "0291dd741c5c2d9ce8029f48aa249f43d40ff41ea80168eeb2f5369577fc5170",
+      "disconnected": [
+        "08d1836768fb918d4ce5eddbf352433c6c2bc99baff9b055dee99da79634234d",
+        "014018aae1104d777bed19f36f2ab5a46923432a0ba52a38ddd2cf104dfff55e",
+        "07b012236a9816ffc1421209328bdf71a9f261b36f2064e84a61b286070bc1e6"
+      ]
+    }
+  ],
+  "before_utxos": {
+    "96666f4542e8c5aff3e1783680612044496d1d33e17af04f13c81d01ee7d78fe:0": {
+      "value": 25,
+      "address": "mqCb2NqXE4HsToTqQZQZr37ZenHoMXdqYV"
+    },
+    "96666f4542e8c5aff3e1783680612044496d1d33e17af04f13c81d01ee7d78fe:1": {
+      "value": 24,
+      "address": "mkJKfZiJZfeaNL1ga8DVaZUNdgypqs3pU5"
+    },
+    "4baacd6a2a45d6bc356a0be731d8f99943c6a5c5cc45a8a8a54c94d895b62532:0": {
+      "value": 51,
+      "address": "mkJKfZiJZfeaNL1ga8DVaZUNdgypqs3pU5"
+    },
+    "5ee262f3cc386f64a7d71e11f34883805d7b391ce336fc575926db6baec56d80:0": {
+      "value": 50,
+      "address": "mkJKfZiJZfeaNL1ga8DVaZUNdgypqs3pU5"
+    },
+    "2672247ad6399f7da4a9b00bcdaeddc6ece0e5a6b2e01d13a7af03e9f12f0ae4:0": {
+      "value": 50,
+      "address": "mkJKfZiJZfeaNL1ga8DVaZUNdgypqs3pU5"
+    }
+  },
+  "after_utxos": {
+    "5251ecc1b3f5bca076d3177ef8b1db3570e8474bc88efdaca7b82679c75f0ba1:0": {
+      "value": 50,
+      "address": "mkJKfZiJZfeaNL1ga8DVaZUNdgypqs3pU5"
+    },
+    "312a9d4d4c6ce06afab13626f7cc82aca49f3d765db37c0063bd25ee03fef92c:0": {
+      "value": 50,
+      "address": "mqCb2NqXE4HsToTqQZQZr37ZenHoMXdqYV"
+    }
+  },
+  "genesis_header_hex": "010000000000000000000000000000000000000000000000000000000000000000000000fc142ab6d5abab90b4cd863d51f80f0bfd33996d86e7fa24fb3b9dcc8508968f64000000000000000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1000000000000000",
+  "mining_stats": [
+    {
+      "attempts": 17,
+      "seconds": 0.000223,
+      "hashes_per_second": 76213.7
+    },
+    {
+      "attempts": 1,
+      "seconds": 1.2e-05,
+      "hashes_per_second": 86557.6
+    },
+    {
+      "attempts": 17,
+      "seconds": 9.1e-05,
+      "hashes_per_second": 185845.16
+    },
+    {
+      "attempts": 20,
+      "seconds": 0.000106,
+      "hashes_per_second": 189541.12
+    },
+    {
+      "attempts": 52,
+      "seconds": 0.000309,
+      "hashes_per_second": 168159.08
+    }
+  ]
+}

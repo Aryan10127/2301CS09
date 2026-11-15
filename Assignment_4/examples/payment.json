@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "network_id": "course-testnet",
+  "nonce": 7,
+  "inputs": [
+    {
+      "txid": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+      "index": 0,
+      "public_key": "8a88e3dd7409f195fd52db2d3cba5d72ca6709bf1d94121bf3748801b40f6f5c",
+      "signature": "f8595ae9f120bfa2acadfbddc39a388f5a1addfcdf835f7724afeb4aa663fc91d42a1d8f4345f85ef4fd5a513f2f2971577e935654e5dea4c172c1bda3122a0c"
+    },
+    {
+      "txid": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "index": 0,
+      "public_key": "8a88e3dd7409f195fd52db2d3cba5d72ca6709bf1d94121bf3748801b40f6f5c",
+      "signature": "f8595ae9f120bfa2acadfbddc39a388f5a1addfcdf835f7724afeb4aa663fc91d42a1d8f4345f85ef4fd5a513f2f2971577e935654e5dea4c172c1bda3122a0c"
+    }
+  ],
+  "outputs": [
+    {
+      "value": 85,
+      "address": "mqCb2NqXE4HsToTqQZQZr37ZenHoMXdqYV"
+    },
+    {
+      "value": 23,
+      "address": "mkJKfZiJZfeaNL1ga8DVaZUNdgypqs3pU5"
+    }
+  ]
+}

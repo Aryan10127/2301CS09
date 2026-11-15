@@ -1,0 +1,8 @@
+demo.key
+*.key
+demo-nonces.json
+signed.json
+tx.json
+__pycache__/
+.pytest_cache/
+*.pyc

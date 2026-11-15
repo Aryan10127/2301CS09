@@ -1,0 +1,13 @@
+{
+  "format": "course-utxo-v1",
+  "utxos": {
+    "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa:0": {
+      "value": 40,
+      "address": "mkJKfZiJZfeaNL1ga8DVaZUNdgypqs3pU5"
+    },
+    "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb:0": {
+      "value": 70,
+      "address": "mkJKfZiJZfeaNL1ga8DVaZUNdgypqs3pU5"
+    }
+  }
+}

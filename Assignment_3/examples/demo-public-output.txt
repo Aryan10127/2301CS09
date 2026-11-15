@@ -1,0 +1,16 @@
+{
+  "transaction": {
+    "version": 1,
+    "network_id": "course-testnet",
+    "sender": "mzFVKZkB4TVC5sf897PK4ncrZMdea6rycn",
+    "recipient": "myxvZXANQ5JVP4AGuGJM3tn4XLhrXveDRN",
+    "amount_units": 1250000,
+    "nonce": 7,
+    "memo_hash": "3599e8da3008dd996791b18b71f7110512769d1c1580a7d01a203be089bccca9"
+  },
+  "public_key": "78ded47952e873cd10bbb49e99000ec56d1987faafa9027be228bffd81404a18",
+  "signature": "644b7982156cb34f7cb620cecc61e7593027d7ac32fb23ee3038c5c528fadef039fdc436ee2c44c3922a02a5e62c25b1851e7228844f605a7f35667da9f43409"
+}
+Verified: True
+Expected second verification rejection: replayed nonce
+Expected tampering rejection: signature verification failed

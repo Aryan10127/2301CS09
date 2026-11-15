@@ -1,0 +1,23 @@
+[
+  {
+    "leaves": 8,
+    "build_seconds": 4.8e-05,
+    "root": "b15acd8b1ccf7a9b81c04f69b27e5cabd67e90be0e6ff6a4d1ed87004a4f0cc1",
+    "proof_steps": 3,
+    "proof_json_bytes": 315
+  },
+  {
+    "leaves": 1024,
+    "build_seconds": 0.001835,
+    "root": "0456833d28c7c5dd77fb16ad71e43fd0f9766da8c8064608fc1a89b3d7068818",
+    "proof_steps": 10,
+    "proof_json_bytes": 957
+  },
+  {
+    "leaves": 100000,
+    "build_seconds": 0.171984,
+    "root": "1c643097a89e686d46629dd2ecc525f0ec1aac33225dd984393586e2b4a12ec3",
+    "proof_steps": 17,
+    "proof_json_bytes": 1593
+  }
+]

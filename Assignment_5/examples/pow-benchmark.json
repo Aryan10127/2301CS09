@@ -1,0 +1,26 @@
+[
+  {
+    "target_hex": "1fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+    "expected_attempts": 8.0,
+    "observed_avg_attempts": 6.967,
+    "total_hashes": 209,
+    "total_seconds": 0.002117,
+    "hashes_per_second": 98704.84
+  },
+  {
+    "target_hex": "0fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+    "expected_attempts": 16.0,
+    "observed_avg_attempts": 12.867,
+    "total_hashes": 386,
+    "total_seconds": 0.002813,
+    "hashes_per_second": 137220.64
+  },
+  {
+    "target_hex": "03ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+    "expected_attempts": 64.0,
+    "observed_avg_attempts": 67.2,
+    "total_hashes": 2016,
+    "total_seconds": 0.011189,
+    "hashes_per_second": 180174.19
+  }
+]
