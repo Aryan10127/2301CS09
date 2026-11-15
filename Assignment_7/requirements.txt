@@ -1,0 +1,6 @@
+# Assignment 7 - Solidity Escrow
+# Toolchain (install once):
+#   Foundry (forge, anvil, cast) -> https://getfoundry.sh   (run: foundryup)
+# Solidity compiler: 0.8.24 (downloaded automatically by forge, set in foundry.toml)
+# Library dependency (pinned, installed as git submodule in lib/):
+#   forge-std v1.9.4  ->  forge install foundry-rs/forge-std@v1.9.4

@@ -1,0 +1,97 @@
+No files changed, compilation skipped
+
+Ran 34 tests for test/Escrow.t.sol:EscrowTest
+[PASS] testFuzz_Amount_DisputeFlow(uint96,bool) (runs: 1000, μ: 258040, ~: 258034)
+Logs:
+  Bound result 435015089
+
+[PASS] testFuzz_Amount_ReleaseFlow(uint96) (runs: 1000, μ: 249012, ~: 249000)
+Logs:
+  Bound result 27269196
+
+[PASS] testFuzz_Caller_CannotFund(address) (runs: 1000, μ: 40571, ~: 40571)
+[PASS] testFuzz_Caller_CannotRelease(address) (runs: 1000, μ: 120052, ~: 120052)
+[PASS] testFuzz_Caller_CannotResolve(address) (runs: 1000, μ: 153761, ~: 153761)
+[PASS] test_Cancel_AfterFunded_Reverts() (gas: 110917)
+[PASS] test_Cancel_RequiresBothParties() (gas: 130870)
+[PASS] test_Cancel_StrangerReverts() (gas: 57308)
+[PASS] test_Constructor_RejectsRoleOverlap() (gas: 204854)
+[PASS] test_Constructor_RejectsZeroAddresses() (gas: 204317)
+[PASS] test_DirectEthTransfer_Reverts() (gas: 39685)
+[PASS] test_Dispute_ByBuyer() (gas: 138411)
+[PASS] test_Dispute_BySeller() (gas: 121926)
+[PASS] test_Dispute_FromCreated_Reverts() (gas: 35665)
+[PASS] test_Dispute_StrangerAndArbiterReverts() (gas: 134666)
+[PASS] test_Fund_AfterCancel_Reverts() (gas: 145087)
+[PASS] test_Fund_OnlyBuyer() (gas: 39911)
+[PASS] test_Fund_Succeeds() (gas: 120412)
+[PASS] test_Fund_Twice_Reverts() (gas: 129284)
+[PASS] test_Fund_ZeroValueReverts() (gas: 34541)
+[PASS] test_Release_FromCreated_Reverts() (gas: 35638)
+[PASS] test_Release_OnlyBuyer() (gas: 109585)
+[PASS] test_Release_Succeeds_ThenSellerWithdraws() (gas: 257507)
+[PASS] test_Resolve_FromFunded_Reverts() (gas: 113558)
+[PASS] test_Resolve_OnlyArbiter() (gas: 162732)
+[PASS] test_Resolve_ToBuyer() (gas: 289512)
+[PASS] test_Resolve_ToSeller() (gas: 255945)
+[PASS] test_Terminal_Cancelled() (gas: 297502)
+[PASS] test_Terminal_Released() (gas: 348289)
+[PASS] test_Terminal_ResolvedToBuyer() (gas: 378385)
+[PASS] test_Terminal_ResolvedToSeller() (gas: 378273)
+[PASS] test_Withdraw_CannotPayTwice() (gas: 231166)
+[PASS] test_Withdraw_NothingReverts() (gas: 39467)
+[PASS] test_Withdraw_ReentrancyBlocked() (gas: 1790470)
+Suite result: ok. 34 passed; 0 failed; 0 skipped; finished in 216.13ms (1.09s CPU time)
+
+╭--------------------------------+-----------------+-------+--------+-------+---------╮
+| src/Escrow.sol:Escrow Contract |                 |       |        |       |         |
++=====================================================================================+
+| Deployment Cost                | Deployment Size |       |        |       |         |
+|--------------------------------+-----------------+-------+--------+-------+---------|
+|                        1196356 |            6223 |       |        |       |         |
+|--------------------------------+-----------------+-------+--------+-------+---------|
+|                                |                 |       |        |       |         |
+|--------------------------------+-----------------+-------+--------+-------+---------|
+| Function Name                  | Min             | Avg   | Median | Max   | # Calls |
+|--------------------------------+-----------------+-------+--------+-------+---------|
+| amount                         |            2470 |  2470 |   2470 |  2470 |       1 |
+|--------------------------------+-----------------+-------+--------+-------+---------|
+| approveCancel                  |           21351 | 32540 |  23935 | 51163 |      17 |
+|--------------------------------+-----------------+-------+--------+-------+---------|
+| fund                           |           21341 | 58096 |  67402 | 67402 |    1290 |
+|--------------------------------+-----------------+-------+--------+-------+---------|
+| liabilities                    |            5126 |  6105 |   5126 |  7217 |    1526 |
+|--------------------------------+-----------------+-------+--------+-------+---------|
+| pending                        |            2847 |  2847 |   2847 |  2847 |       2 |
+|--------------------------------+-----------------+-------+--------+-------+---------|
+| raiseDispute                   |           21394 | 27721 |  27812 | 27812 |     524 |
+|--------------------------------+-----------------+-------+--------+-------+---------|
+| release                        |           21299 | 48106 |  23884 | 75073 |     516 |
+|--------------------------------+-----------------+-------+--------+-------+---------|
+| resolve                        |           21734 | 48709 |  24331 | 75949 |     517 |
+|--------------------------------+-----------------+-------+--------+-------+---------|
+| state                          |            2573 |  2573 |   2573 |  2573 |       8 |
+|--------------------------------+-----------------+-------+--------+-------+---------|
+| withdraw                       |           28521 | 45420 |  45487 | 45487 |     512 |
+╰--------------------------------+-----------------+-------+--------+-------+---------╯
+
+╭--------------------------------------------+-----------------+-------+--------+-------+---------╮
+| test/Escrow.t.sol:ReentrantSeller Contract |                 |       |        |       |         |
++=================================================================================================+
+| Deployment Cost                            | Deployment Size |       |        |       |         |
+|--------------------------------------------+-----------------+-------+--------+-------+---------|
+|                                     268187 |            1023 |       |        |       |         |
+|--------------------------------------------+-----------------+-------+--------+-------+---------|
+|                                            |                 |       |        |       |         |
+|--------------------------------------------+-----------------+-------+--------+-------+---------|
+| Function Name                              | Min             | Avg   | Median | Max   | # Calls |
+|--------------------------------------------+-----------------+-------+--------+-------+---------|
+| attack                                     |           54586 | 54586 |  54586 | 54586 |       1 |
+|--------------------------------------------+-----------------+-------+--------+-------+---------|
+| reentryBlocked                             |            2494 |  2494 |   2494 |  2494 |       1 |
+|--------------------------------------------+-----------------+-------+--------+-------+---------|
+| setEscrow                                  |           44111 | 44111 |  44111 | 44111 |       1 |
+╰--------------------------------------------+-----------------+-------+--------+-------+---------╯
+
+
+Ran 1 test suite in 320.78ms (216.13ms CPU time): 34 tests passed, 0 failed, 0 skipped (34 total tests)
